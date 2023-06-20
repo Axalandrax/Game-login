@@ -1,0 +1,155 @@
+body{
+	color:white;
+	padding:0px;
+	margin:0px;
+	background-color:rgba(0,0,0,95%);
+	
+}
+
+header{
+	color:white;
+	height:5vh;
+	width:100%;
+	background-color:rgb(0,0,10);
+}
+
+
+#content{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	margin-left:90px;
+	margin-top:50px;
+}
+
+.jogoss{
+	width:250px;
+	margin-right:50px;
+	margin-bottom:30px;
+	transition:1s;
+}
+.jogoss:hover{
+	background-color:darkgray;
+	
+}
+.jogo{
+	
+	text-align:center;
+	
+}
+.imgss{
+	height:100px;
+	width:100%;
+	
+}
+.navi{
+	padding:5px 50px 5px 50px;
+	display:flex;
+	justify-content: space-around;
+    flex-direction: column;
+	background-image:linear-gradient(to right,black,brown,brown,black);
+	border-radius:7px;
+	transition:2s;
+	
+	
+}
+.navi:hover{
+	color:black;
+	background-image:linear-gradient(to right,black,red,black);
+	
+}
+nav{
+	height:5vh;
+	display:flex;
+	justify-content:space-around;
+	
+}
+#footer{
+	display:none;
+	
+}
+
+footer{
+	position:absolute;
+	bottom:0;
+	height:100px;
+	width:100%;
+	background-color:rgb(0,0,15);
+	
+	
+}
+#formi{
+	margin-left:10%;
+	margin-top:100px;
+	height:200px;
+	
+}
+
+#enviado{
+	color:red;
+	font-size:50px;
+	margin-left:10%;
+	margin-top:100px;
+	display:none;
+}
+
+.produt{
+	border:1px solid darkRed;
+	padding:20px;
+}
+.btncomp{
+	float:right;
+	color:Yellow;
+	background-color:green;
+	border:1px solid gray;
+	border-radius:10px 0px 0px 10px;
+	padding:5px;
+}
+
+.paginacao{
+	float:right;
+	border:5px solid;
+	border-radius:5px;
+	
+	margin-left:150px;
+	color:white;
+	
+}
+
+#frameGame{
+	float:left;
+	height:70vh;
+	width:75vw;
+}
+
+#anuncio{
+	background-image:url('ifod.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:15%;
+	height:60vh;
+	float:right;
+	
+}
+
+#xiszinho{
+	display:flex;
+	font-weight:bold;
+	color:black;
+	height:20px;
+	float:left;
+	border:2.5px solid;
+	border-radius:15px;
+	font-size:25px;
+	flex-direction:column;
+	justify-content:space-evenly;
+}
+#xiszinho:hover{
+	background-color:darkRed;
+	border:3.5px solid;
+}
+
+#anuncio{
+	margin-top:30px;
+	
+}

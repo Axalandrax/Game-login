@@ -1,0 +1,67 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<script src="JavaScript/funcoes.js"></script>
+</head>
+<body>
+	<script>
+	function desaparecer(){
+		document.getElementById('formi').style.display = 'none';
+		document.getElementById('enviado').style.display = 'initial';
+		}
+	
+	</script>
+	
+	
+	
+	<div id="top">
+		<img src="cabesalho.png" style="width:100%;">
+	</div>
+	<header>
+		<nav>
+			<span class="navi" onclick="location.href = 'index.html'">HOME</span>
+			<span class="navi"  style="background-image:none;">CADASTRO</span>
+			<span class="navi" onclick="location.href = 'produtos.html'">PRODUTOS</span>
+			<span class="navi">PERFIL</span>
+			
+		</nav>
+	</header>
+	
+<div id="anuncio"  onclick="location.href ='https://www.ifood.com.br/'"> <span id="xiszinho" onclick="fecharAnuncio()">x</span></div>
+	<div id="content">
+	
+	
+	<fieldset id="formi">
+	
+	<form action="#" method="post">
+	nome:<input type="text" name="texto"><br><br><br><br><br>
+	sobrenome:<input type="text" name="texto"><br><br><br><br><br>
+	
+	</form>
+	<button onclick="desaparecer()">enviar</button>
+	</fieldset>
+	<div id="enviado">
+	enviado<br>
+	<br>
+	<a href="index.html">voltar</a>
+	
+	</div>
+	
+	
+	</div>
+	<footer>
+		
+		
+		fale conosco:<br>
+		
+		deidy costa: 13 997673802<br>
+		joão do pão: 13 995145112<br>
+		sucrilhos sem leite: 13 995144442
+		<br>direitos reservados ao senac*
+	</footer>
+	
+	
+	
+</body>
+</html>
